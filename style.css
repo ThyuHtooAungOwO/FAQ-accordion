@@ -33,7 +33,7 @@ body {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 @media (min-width: 48em) {
   .faqs-card-container {
@@ -90,11 +90,11 @@ body {
   text-align: left;
 }
 .dropdown .dropdown__header-title {
-  width: 80%;
+  width: 75%;
   color: hsl(292, 42%, 14%);
   font-weight: 600;
+  font-size: 1.125rem;
   line-height: 1.25;
-  font-size: 1.25rem;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 .dropdown .dropdown__header-title:hover {
@@ -104,6 +104,7 @@ body {
 @media (min-width: 48em) {
   .dropdown .dropdown__header-title {
     width: 90%;
+    font-size: 1.25rem;
   }
 }
 .dropdown .dropdown-menu {
