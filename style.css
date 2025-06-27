@@ -87,6 +87,7 @@ body {
   color: hsl(292, 42%, 14%);
   font-weight: 600;
   line-height: 1.25;
+  font-size: 1.25rem;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 .dropdown .dropdown__header-title:hover {
@@ -121,6 +122,4 @@ body {
 }
 .attribution a:hover {
   text-decoration: underline;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
